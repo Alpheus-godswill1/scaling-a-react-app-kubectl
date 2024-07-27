@@ -1,0 +1,5 @@
+prometheus:
+  scrapeConfigs:
+    - job_name: 'react-app'
+      static_configs:
+        - targets: ['react-app-service:9090']
